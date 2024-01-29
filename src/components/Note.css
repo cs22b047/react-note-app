@@ -1,0 +1,59 @@
+.notediv{
+    background-color: rgb(255, 239, 117);
+    border: none;
+    width:20%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.headerdiv{
+    background-color: rgb(248, 237, 154);
+    text-align: left;
+    border:none;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+.headerdiv .buttons .delete_btn{
+    background-color: rgb(248, 237, 154);
+    border-style: hidden;
+    color: rgba(0, 0, 0, 0.503);
+}
+.headerdiv .buttons .delete_btn:hover{
+    background-color: rgb(248, 237, 154);
+    border-style: hidden;
+    color: rgb(0, 0, 0);
+}
+.headerdiv .buttons{
+    padding-top: 0.5rem;
+    padding-right: 0.2rem;
+}
+.headerdiv .buttons .collapse_btn{
+    background-color: rgb(248, 237, 154);
+    border-style: hidden;
+    color: rgba(0, 0, 0, 0.503);
+}
+.headerdiv > h3{
+    margin: 0.3rem;
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+.contentdiv > textarea{
+    background-color: rgb(248, 237, 154);
+    border:none;
+    width: 90%;
+    height: 10rem;
+    margin: 0.5rem auto auto auto;
+}
+.footerdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.footerdiv > p{
+    font-size: xx-small;
+    margin:0.1rem;
+}
